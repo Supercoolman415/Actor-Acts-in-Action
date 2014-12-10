@@ -48,6 +48,7 @@ a:hover {
 	}
 	
 p {
+	font: 100px;
 	line-height: 140%;
 	margin: 0;
 	padding: 0 0 10px 0;
