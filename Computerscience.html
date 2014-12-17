@@ -1,8 +1,67 @@
 <!doctype. html>
-<title>Computer Science</title>
-<h1>Computer Science</h1>
+<html>
+  <head> 
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+     <link href="tanstyle.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/prototype.js"></script>
+<script type="text/javascript" src="js/scriptaculous.js?load=effects,builder"></script>
+<script type="text/javascript" src="js/lightbox.js"></script>
+<link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
 
 
+<!--YOU NEED THIS JAVASCRIPT CODE FOR THE ROLLOVER-->
+<script type="text/javascript">
+if(document.images)
+{
+  var image_array = new Array();
+	
+  // path to the directory with images
+  var path = 'images/';
+  // enumeration of the "active" images
+  image_array[0] = path + "image1.gif";
+  image_array[1] = path + "image2.gif";
+  var preload_image = new Array ();
+ 
+  for(var i=0; i<image_array.length; i++)
+  {
+    preload_image[i]= new Image();
+    preload_image[i].src = image_array[i];
+  }
+}
+function rollover(name, filename)
+{
+  document.images[name].src = filename;
+}
+</script>
+    
+    <title>Computer Science </title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <h1>Computer Science</h1>
+          <h2>The requirements of becoming an successful &quot;Actor.&quot;</h2>
+        </header>
+
+        
+        
+          <a href="http://www.cdm.depaul.edu/academics/PublishingImages/heroMSCS.jpg" alt="This is the hometown of the actors" rel="lightbox" onmouseover="rollover('button1','http://www.aust.edu.ng/files/thumb/151/0')"
+            onmouseout="rollover('button1','http://www.cdm.depaul.edu/academics/PublishingImages/heroMSCS.jpg')"> 
+<img name="button1" src="http://www.cdm.depaul.edu/academics/PublishingImages/heroMSCS.jpg"></a>
 <a href="http://www.cdm.depaul.edu"><img src="http://www.cdm.depaul.edu/academics/PublishingImages/heroMSCS.jpg"></a>
 <p><a href="http://programmers.stackexchange.com/questions/99501/how-is-the-actor-model-used"> Human-computer interaction, and computer-supported collaborative work, the series aims to bring together and mutually inform conceptual developments and empirical explorations of the technological mediation of human activity in these and other fields such as sociology, communication, education, and organizational studies.</p>
 <br>
